@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>SVG - Xtn Logo</title>
+	<link rel="stylesheet" type="text/css" href="css/screen.css">
+</head>
+<body>
+	<div id="logo">
+		<svg width="400" height="400">
+			<defs>
+				<linearGradient id="bigGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+			      <stop offset="0%" style="stop-color:#7693a1;stop-opacity:1" />
+			      <stop offset="100%" style="stop-color:#2f5a63;stop-opacity:1" />
+			    </linearGradient>	
+
+			    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+			      <stop offset="0%" style="stop-color:#5f818d;stop-opacity:1" />
+			      <stop offset="100%" style="stop-color:#436a74;stop-opacity:1" />
+			    </linearGradient>
+    		</defs>
+
+			<!-- Blue Circle -->
+			<circle cx="50%" cy="50%" r="50%" style="fill:url(#bigGrad)"/>
+
+			<!-- Letter e -->
+			<ellipse cx="52%" cy="70%" rx="22%" ry="24%" style="fill:#fff"/>
+			<ellipse cx="52%" cy="70%" rx="16%" ry="18%" style="fill:url(#innerGrad)"/>
+			<rect x="35%" y="65%" rx="2" ry="2" width="35%" height="6%" style="fill:#fff;" />
+			<rect x="65%" y="71%" rx="2" ry="2" width="10%" height="6%" style="fill:#436a74;" />
+
+			<!-- letter i -->
+			<rect x="80%" y="46%" width="6%" height="50%" style="fill:#fff" />
+			<circle cx="83%" cy="38%" r="3.5%" style="fill:#fff"/>
+			
+			<!-- Lower Left Dot -->
+			<circle cx="22%" cy="82%" r="3.5%" style="fill:#fff"/>
+		</svg>
+	</div>
+</body>
+</html>

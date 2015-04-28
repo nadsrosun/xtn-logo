@@ -1,0 +1,9 @@
+@media all and (max-width: 50em) {
+	svg { width: 300px; height: 300px; }
+} 
+
+@media all and (max-width: 30em) {
+	svg { width: 200px; height: 200px; }
+}
+
+#logo { width: 100%; text-align: center; margin-top:100px; }
